@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none !important; 
+}
+
+html{
+  font-size: 62.5%;
+  background-color: black;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./components/fonts/Montserrat-SemiBold.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('./components/fonts/Montserrat-Bold.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  border: 3px groove rgb(7, 7, 7);
+  background-position: top;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #383838;
+  border-radius: 15px;
+}
+
+
+.audioChange{
+  color: white;
+  cursor: pointer;
+  padding: 2rem;
+  width: 9rem;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 1%;
+  right: 2%;
+  z-index: 9999999 !important;
+}
+
+
+
